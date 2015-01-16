@@ -1080,7 +1080,7 @@
 				GCC_PREFIX_HEADER = "SensePlatform-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = SensePlatform;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -1098,7 +1098,7 @@
 				GCC_PREFIX_HEADER = "SensePlatform-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = SensePlatform;
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
