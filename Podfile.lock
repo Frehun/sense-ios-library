@@ -1,0 +1,14 @@
+PODS:
+  - SQLCipher (3.1.0):
+    - SQLCipher/standard (= 3.1.0)
+  - SQLCipher/common (3.1.0)
+  - SQLCipher/standard (3.1.0):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - SQLCipher (~> 3.1)
+
+SPEC CHECKSUMS:
+  SQLCipher: 981110217eb93c2779c34fb59e646a1c1da918d8
+
+COCOAPODS: 0.35.0
