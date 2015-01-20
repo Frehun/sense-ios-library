@@ -39,6 +39,8 @@ NSString* const kCSGeneralSettingAutodetect = @"auto detect";
 NSString* const kCSGeneralSettingUploadToCommonSense = @"upload to CommonSense";
 NSString* const kCSGeneralSettingDontUploadBursts = @"dontUploadBurstData";
 NSString* const kCSGeneralSettingBackgroundRestarthack = @"enableBackgroundRestarthack";
+NSString* const kCSGeneralSettingLocalStorageEncryption = @"enableLocalStorageEncryption";
+NSString* const kCSGeneralSettingLocalStorageEncryptionKey = @"localStorageEncryptionKey";
 
 //biometric settings
 NSString* const kCSBiometricSettingGender = @"gender";
@@ -157,6 +159,7 @@ static CSSettings* sharedSettingsInstance = nil;
                              @"1800", kCSGeneralSettingUploadInterval,
                              kCSSettingYES, kCSGeneralSettingUploadToCommonSense,
                              kCSSettingYES, kCSGeneralSettingSenseEnabled,
+                             kCSSettingNO, kCSGeneralSettingLocalStorageEncryption,
                              nil];
     NSMutableDictionary* ambience = [NSMutableDictionary dictionaryWithObjectsAndKeys:
                               kCSSettingNO, kCSAmbienceSettingSampleOnlyWhenScreenLocked,
